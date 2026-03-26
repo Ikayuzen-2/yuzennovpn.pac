@@ -14,7 +14,7 @@ function FindProxyForURL(url, host) {
             
             // 3. 공용 프록시 서버 주소 (순차적으로 시도)
             // 첫 번째 프록시가 죽으면 두 번째로, 둘 다 죽으면 직접 연결(DIRECT) 시도
-            return "PROXY 89.208.106.138:10808; " + 
+            return "http://89.208.106.138:10808; " + 
                    "PROXY 20.24.43.214:80; " + 
                    "DIRECT";
         }
