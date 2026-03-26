@@ -1,0 +1,2 @@
+# yuzennovpn.pac
+.pac
