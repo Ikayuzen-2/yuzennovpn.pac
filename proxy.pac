@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     // 1. 우회하여 접속할 도메인 목록 (추가/수정 가능)
     var targetDomains = [
-        "*.pokerogue.net",         // 게임
+        "https://pokerogue.net/",         // 게임
         "*.nature.com",            // 과학/교육 논문
         "*.sciencedirect.com",     // 과학/교육 논문
         "*.ncbi.nlm.nih.gov",      // 의학/생명과학 논문
